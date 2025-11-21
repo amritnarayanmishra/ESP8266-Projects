@@ -1,0 +1,22 @@
+# Servo Control via Local Web Server
+
+## Description
+Control a servo motor using NodeMCU via a colorful web interface. The webpage has buttons for multiple angles (0°, 45°, 90°, 135°, 180°) with animated, gradient-colored buttons. Learn PWM control, ESP8266 web server, and responsive HTML/CSS design.
+
+## Components Required
+- NodeMCU ESP8266
+- Servo Motor
+- External 5V Power Supply (if servo requires more current)
+- Jumper Wires
+
+## Circuit / Connections
+- Servo signal pin to D4
+- VCC to 5V
+- GND to GND
+
+## How to Use
+1. Upload `ESP8266_Servo_Control.ino` to NodeMCU.
+2. Connect phone/computer to ESP8266 AP Wi-Fi (`ESP_Server`, password `12345678`).
+3. Open browser → navigate to `192.168.4.1`.
+4. Click buttons to move the servo to desired angles.
+5. Buttons are colorful and animated with hover effects for a modern UI.

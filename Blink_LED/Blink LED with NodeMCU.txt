@@ -1,0 +1,18 @@
+# Blink LED with NodeMCU
+
+## Description
+A simple project to blink an LED using NodeMCU. Helps you learn GPIO output and basic Arduino programming.
+
+## Components Required
+- NodeMCU ESP8266
+- LED
+- 220Ω Resistor
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- Connect the LED anode (+) to D5 through a resistor.
+- Connect LED cathode (-) to GND.
+
+## How to Use
+1. Upload `Blink_LED.ino` to NodeMCU.
+2. LED will blink ON and OFF every 500ms automatically.

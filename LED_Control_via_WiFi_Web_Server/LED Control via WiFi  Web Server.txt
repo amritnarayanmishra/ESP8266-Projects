@@ -1,0 +1,19 @@
+# ESP8266 Web Server to Control LED
+
+## Description
+Control an LED from any web browser using NodeMCU’s built-in web server. Learn HTML page interaction and Wi-Fi.
+
+## Components Required
+- NodeMCU ESP8266
+- LED
+- 220Ω Resistor
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- LED anode to D5 through resistor, cathode to GND.
+
+## How to Use
+1. Upload `WebServer_LED.ino` to NodeMCU.
+2. Connect to Wi-Fi `ESP8266` with password `12345678`.
+3. Open browser, navigate to ESP IP (check Serial Monitor).
+4. Click ON/OFF buttons to control LED.

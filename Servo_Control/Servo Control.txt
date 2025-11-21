@@ -1,0 +1,19 @@
+# Servo Motor Control
+
+## Description
+Control a servo motor using NodeMCU with predefined angles. Learn PWM control.
+
+## Components Required
+- NodeMCU ESP8266
+- Servo Motor
+- External 5V Power Supply (if servo needs more current)
+- Jumper Wires
+
+## Circuit / Connections
+- Servo signal pin to D4
+- VCC to 5V
+- GND to GND
+
+## How to Use
+1. Upload `Servo_Control.ino` to NodeMCU.
+2. Servo will rotate to 0°, 90°, 180° sequentially every second.

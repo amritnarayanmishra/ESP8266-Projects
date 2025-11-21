@@ -1,0 +1,20 @@
+# Wi-Fi Temperature & Humidity Monitor
+
+## Description
+Read DHT11/DHT22 sensor data and display via NodeMCU web server in real-time.
+
+## Components Required
+- NodeMCU ESP8266
+- DHT11/DHT22 Sensor
+- OLED/LCD (optional)
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- DHT Data pin to D4
+- VCC to 3.3V
+- GND to GND
+
+## How to Use
+1. Upload `WiFi_DHT_Monitor.ino` to NodeMCU.
+2. Connect phone/computer to ESP8266 AP (`ESP8266`, `12345678`).
+3. Open browser → navigate to ESP IP. Temperature & Humidity displayed live.

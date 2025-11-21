@@ -1,0 +1,19 @@
+# DHT11/DHT22 Temperature & Humidity Monitor
+
+## Description
+Read temperature and humidity from DHT11/DHT22 sensor and display on Serial Monitor.
+
+## Components Required
+- NodeMCU ESP8266
+- DHT11 or DHT22 Sensor
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- DHT Data pin to D3
+- VCC to 3.3V
+- GND to GND
+
+## How to Use
+1. Install DHT library in Arduino IDE.
+2. Upload `DHT_Monitor.ino` to NodeMCU.
+3. Open Serial Monitor at 9600 baud to see temperature and humidity.

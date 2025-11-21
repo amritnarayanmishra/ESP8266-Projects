@@ -1,0 +1,22 @@
+# IoT Home Automation (2 Devices)
+
+## Description
+Control 2 devices (LED/Bulb) via web interface using NodeMCU. Learn Wi-Fi AP, relay control, and simple IoT automation.
+
+## Components Required
+- NodeMCU ESP8266
+- 2-Channel Relay Module
+- 2 LED/Bulb (for testing)
+- Jumper Wires
+
+## Circuit / Connections
+- Relay1 to D6
+- Relay2 to D7
+- GND and VCC to NodeMCU
+- Device connections via relay NO/COM pins
+
+## How to Use
+1. Upload `Home_Auto_2Devices.ino` to NodeMCU.
+2. Connect to ESP AP Wi-Fi.
+3. Open browser → navigate to `192.168.4.1`.
+4. Click buttons to turn devices ON/OFF.

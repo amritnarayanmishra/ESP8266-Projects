@@ -1,0 +1,19 @@
+# Button Controlled LED
+
+## Description
+Control an LED using a push button connected to NodeMCU. Learn input reading and digital write.
+
+## Components Required
+- NodeMCU ESP8266
+- LED
+- Push Button
+- 220Ω Resistor
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- LED anode to D6 through resistor, cathode to GND.
+- Button between D5 and GND (using INPUT_PULLUP).
+
+## How to Use
+1. Upload `Button_LED.ino` to NodeMCU.
+2. Press the button, LED turns ON; release it, LED turns OFF.

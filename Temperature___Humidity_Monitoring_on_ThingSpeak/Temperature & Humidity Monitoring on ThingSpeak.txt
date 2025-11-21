@@ -1,0 +1,20 @@
+#Temperature & Humidity Monitoring On ThingSpeak
+
+## Description
+Monitor temperature and humidity using DHT11/DHT22 sensor and upload data to ThingSpeak for real-time visualization. Learn sensor interfacing, HTTP requests, and IoT data monitoring.
+
+## Components Required
+- NodeMCU ESP8266
+- DHT11 or DHT22 Sensor
+- Breadboard & Jumper Wires
+
+## Circuit / Connections
+- DHT Data pin to D4
+- VCC to 3.3V
+- GND to GND
+
+## How to Use
+1. Replace `YOUR_WIFI_SSID`, `YOUR_WIFI_PASSWORD`, and `YOUR_THINGSPEAK_WRITE_API_KEY` in the code.
+2. Upload `ESP8266_ThingSpeak_DHT.ino` to NodeMCU.
+3. NodeMCU connects to Wi-Fi and sends temperature & humidity data to ThingSpeak every 20 seconds.
+4. Open ThingSpeak channel → view real-time data graph for temperature and humidity.
